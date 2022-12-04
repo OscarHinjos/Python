@@ -8,8 +8,12 @@ if __name__ == "__main__":
         eleccion = eleccion_usuario()
         if eleccion == 1:
             leer_receta()
-        if eleccion == 2:
-            pass
+        elif eleccion == 2:
+            crear_receta()
+        elif eleccion == 3:
+            crear_categoria()
+        elif eleccion == 4:
+            eliminar_receta()
         elif eleccion == 6:
             print("Hasta pronto")
             salir_programa = True
