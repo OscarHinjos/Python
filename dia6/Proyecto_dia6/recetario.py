@@ -1,5 +1,6 @@
 from bienvenida import *
 from eleccion_usuario import *
+import os
 
 if __name__ == "__main__":
     salir_programa = False
@@ -14,6 +15,8 @@ if __name__ == "__main__":
             crear_categoria()
         elif eleccion == 4:
             eliminar_receta()
+        elif eleccion == 5:
+            eliminar_categoria()
         elif eleccion == 6:
             print("Hasta pronto")
             salir_programa = True
