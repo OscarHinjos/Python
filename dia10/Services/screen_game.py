@@ -83,7 +83,7 @@ def screen():
                 puntuacion += 1
                 enemigo.muerte()
 
-            if enemigo.enemigo_pos_y > 250:
+            if enemigo.enemigo_pos_y > 500:
                for en in list_enemigo:
                 en.enemigo_pos_y = 1000
                 final(window)
